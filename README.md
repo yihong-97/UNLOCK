@@ -1,7 +1,27 @@
-# UNLOCK
-[ICCV2025] Unlocking Constraints: Source-Free Occlusion-Aware Seamless Segmentation
+<p align="center">
+<h1 align="center"><strong>Unlocking Constraints: Source-Free Occlusion-Aware Seamless Segmentation</strong></h1>
+<h3 align="center">ICCV 2025</h3>
 
-[arXiv: 2506.21198](https://arxiv.org/pdf/2506.21198)
+<p align="center">
+    <a href="https://github.com/yihong-97">Yihong Cao</a><sup>1,2*</sup>,</span>
+    <a href="https://jamycheung.github.io">Jiaming Zhang</a><sup>3,4*</sup>,
+    <a href="https://zhengxujosh.github.io/">Xu Zheng</a><sup>5,6</sup>,
+    <a href="https://github.com/MasterHow">Hao Shi</a><sup>7</sup>,
+    <a href="https://github.com/KPeng9510">Kunyu Peng</a><sup>2</sup>,
+    <a>Hang Liu</a><sup>1</sup>,
+    <a href="https://yangkailun.com">Kailun Yang</a><sup>1†</sup>,
+    <a href="http://robotics.hnu.edu.cn/info/1071/1538.htm">Hui Zhang</a><sup>1†</sup>
+    <br>
+        <sup>1</sup>Hunan University,
+        <sup>2</sup>Hunan Normal University,
+        <sup>3</sup>Karlsruhe Institute of Technology,
+        <sup>4</sup>ETH Z ̈urich,
+        <sup>5</sup>HKUST(GZ),
+        <sup>6</sup>INSAIT, Sofia University “St. Kliment Ohridski”,
+        <sup>7</sup>Zhejiang University
+</p>
+
+## UNLOCK [[PDF]]([https://arxiv.org/pdf/2407.02182](https://arxiv.org/pdf/2506.21198))
 
 code is coming soon
 
