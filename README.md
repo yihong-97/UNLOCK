@@ -21,7 +21,7 @@
         <sup>7</sup>Zhejiang University
 </p>
 
-## UNLOCK [[PDF]]([https://arxiv.org/pdf/2407.02182](https://arxiv.org/pdf/2506.21198))
+## OASS [[PDF]](https://arxiv.org/pdf/2506.21198)
 
 code is coming soon
 
