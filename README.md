@@ -10,7 +10,7 @@
     <a href="https://github.com/KPeng9510">Kunyu Peng</a><sup>2</sup>,
     <a>Hang Liu</a><sup>1</sup>,
     <a href="https://yangkailun.com">Kailun Yang</a><sup>1†</sup>,
-    <a href="http://robotics.hnu.edu.cn/info/1071/1538.htm">Hui Zhang</a><sup>1†</sup>
+    <a href="http://robotics.hnu.edu.cn/info/1176/2966.htm">Hui Zhang</a><sup>1†</sup>
     <br>
         <sup>1</sup>Hunan University,
         <sup>2</sup>Hunan Normal University,
