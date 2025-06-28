@@ -15,7 +15,7 @@
         <sup>1</sup>Hunan University,
         <sup>2</sup>Hunan Normal University,
         <sup>3</sup>Karlsruhe Institute of Technology,
-        <sup>4</sup>ETH Z ̈urich,
+        <sup>4</sup>ETH Zurich,
         <sup>5</sup>HKUST(GZ),
         <sup>6</sup>INSAIT, Sofia University “St. Kliment Ohridski”,
         <sup>7</sup>Zhejiang University
