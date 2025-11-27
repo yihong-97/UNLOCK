@@ -21,7 +21,7 @@
         <sup>7</sup>Zhejiang University
 </p>
 
-## UNLOCK [[PDF]](https://arxiv.org/pdf/2506.21198)
+## UNLOCK
 
 code is coming soon
 
@@ -34,6 +34,12 @@ Panoramic image processing is essential for omni-context perception, yet faces c
 <em>UNLOCK framework solves the Source-Free Occlusion-Aware Seamless Segmentation (SFOASS), enabling segmentation with 360° viewpoint coverage and occlusion-aware reasoning while adapting without requiring source data and target labels</em>
 </p>
 
+<div align="center">
+
+[[PDF]](https://openaccess.thecvf.com/content/ICCV2025/papers/Cao_Unlocking_Constraints_Source-Free_Occlusion-Aware_Seamless_Segmentation_ICCV_2025_paper.pdf)  [[Supp]](https://openaccess.thecvf.com/content/ICCV2025/papers/Cao_Unlocking_Constraints_Source-Free_Occlusion-Aware_Seamless_Segmentation_ICCV_2025_paper.pdf)  [[arXiv]](https://arxiv.org/pdf/2506.21198)
+
+</div>
+
 ## Contact
 If you have any suggestions or find our work helpful, feel free to contact us
 
@@ -42,10 +48,12 @@ Email: caoyihong97@foxmail.com
 If you find our work useful, please consider citing it:
 
 ```
-@inproceedings{cao2025unlock,
-  title={Unlocking Constraints: Source-Free Occlusion-Aware Seamless Segmentation},
-  author={Yihong Cao and Jiaming Zhang and Xu Zheng and Hao Shi and Kunyu Peng and Hang Liu and Kailun Yang and Hui Zhang},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-  year={2025}
+@InProceedings{Cao_2025_ICCV,
+    author    = {Cao, Yihong and Zhang, Jiaming and Zheng, Xu and Shi, Hao and Peng, Kunyu and Liu, Hang and Yang, Kailun and Zhang, Hui},
+    title     = {Unlocking Constraints: Source-Free Occlusion-Aware Seamless Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {8961-8972}
 }
 ```
