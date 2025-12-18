@@ -40,6 +40,38 @@ Panoramic image processing is essential for omni-context perception, yet faces c
 
 </div>
 
+### 📚 Datasets
+
+This work addresses **Source-Free Occlusion-Aware Seamless Segmentation (SFOASS)** and evaluates the proposed method under two domain adaptation settings. In both cases, the **source domains remain unchanged**, and we **convert the target dataset (BlendPASS) to align with the source label space**.
+
+#### 1. Real-to-Real Adaptation  
+- **Source**: [**KITTI-360 APS**](https://amodal-panoptic.cs.uni-freiburg.de/) — a real-world amodal panoptic dataset.  
+- **Target**: [**BlendPASS**](https://github.com/yihong-97/BlendPASS) — a real-world 360° street-view panoptic segmentation dataset.
+
+#### 2. Synthetic-to-Real Adaptation  
+- **Source**: [**AmodalSynthDrive**](https://amodalsynthdrive.cs.uni-freiburg.de/) — a synthetic dataset for amodal panoptic segmentation in driving scenes.  
+- **Target**: [**BlendPASS**](https://github.com/yihong-97/BlendPASS) — same as above.
+
+#### 🔗 Download Converted BlendPASS Datasets
+We provide two versions of **BlendPASS**, each aligned to the respective source domain’s **7-class label space**:
+
+| Source Domain       | Converted Target Dataset | Download Link |
+|---------------------|--------------------------|---------------|
+| KITTI-360 APS       | BlendPASS (APS-aligned)  | [Google Drive](https://drive.google.com/drive/folders/1T0GDze9s-aQw86PFzrKCSkxx4Un_Kd-A?usp=sharing) |
+| AmodalSynthDrive    | BlendPASS (ASD-aligned)  | [Google Drive](https://drive.google.com/drive/folders/1kGSEHhBHGeRJEtfpYHXye3N3Z8z3eHH5?usp=sharing) |
+
+#### 🔗 Download Converted BlendPASS Datasets
+
+We provide two versions of **BlendPASS**, each aligned to the respective source domain’s **7-class label space**. Additionally, we release the preprocessed training labels for both source datasets used in our experiments.
+
+| Dataset                     | Description                                | Download Link |
+|----------------------------|--------------------------------------------|---------------|
+| **BlendPASS (APS-aligned)**   | Target dataset aligned to KITTI-360 APS     | [Google Drive](https://drive.google.com/drive/folders/1T0GDze9s-aQw86PFzrKCSkxx4Un_Kd-A?usp=sharing) |
+| **BlendPASS (ASD-aligned)**   | Target dataset aligned to AmodalSynthDrive  | [Google Drive](https://drive.google.com/drive/folders/1kGSEHhBHGeRJEtfpYHXye3N3Z8z3eHH5?usp=sharing) |
+| **KITTI-360 APS Labels**      | Preprocessed amodal panoptic training labels   | [Google Drive]() |
+| **AmodalSynthDrive Labels**   | Preprocessed amodal panoptic training labels   | [Google Drive]() |
+
+
 ## Contact
 If you have any suggestions or find our work helpful, feel free to contact us
 
