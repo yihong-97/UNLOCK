@@ -21,7 +21,6 @@
         <sup>7</sup>Zhejiang University
 </p>
 
-## UNLOCK
 
 
 ## Abstract
@@ -88,3 +87,10 @@ If you find our work useful, please consider citing it:
     pages     = {8961-8972}
 }
 ```
+
+
+# run /configs/SFDA_unmaskformer/Generate_pseudolabels_sourcemodel.py to generate the results with numpy format
+# run /tools/convert_pseudolabels/Save_levelinstance_softlabels.py (Line 146) and /tools/convert_pseudolabels/Save_semantic_softlabels.py (Line 130)
+# Then, rename these three directories to 'semantic' 'instance' and 'amodal_instance'
+# run configs/SFDA_unmaskformer/Training_targetonly_unmaskformer.py (Line 75)
+# The best results will be obtained in 400 iters
