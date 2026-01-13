@@ -69,6 +69,18 @@ We provide two versions of **BlendPASS**, each aligned to the respective source 
 | **KITTI-360 APS Labels**      | Preprocessed amodal panoptic training labels   | [Google Drive]() |
 | **AmodalSynthDrive Labels**   | Preprocessed amodal panoptic training labels   | [Google Drive]() |
 
+### Training
+
+#### KITTI-360 APS → BlendPASS
+
+1. Run [Generate_pseudolabels_from_sourcemodel.py](KITTI360-to-BlendPASS/configs/UNLOCK_K2B/Generate_pseudolabels_from_sourcemodel.py) to generate the results with NumPy format.
+
+2. Run the following conversion scripts:  
+   - [Save_OPLL_Instance_Level.py](KITTI360-to-BlendPASS/tools/convert_UNLOCK_OPLL/Save_OPLL_Instance_Level.py) (Line 148)  
+   - [Save_OPLL_Semantic.py](KITTI360-to-BlendPASS/tools/convert_UNLOCK_OPLL/Save_OPLL_Semantic.py) (Line 132)  
+   - [Save_ADCL_Pool.py](KITTI360-to-BlendPASS/tools/convert_UNLOCK_OPLL/Save_ADCL_Pool.py) (Line 129)
+
+3. Run [Training_Mix_targetonly_unmaskformer.py](KITTI360-to-BlendPASS/configs/UNLOCK_K2B/Training_Mix_targetonly_unmaskformer.py) (Line 34).
 
 ## Contact
 If you have any suggestions or find our work helpful, feel free to contact us
@@ -89,8 +101,3 @@ If you find our work useful, please consider citing it:
 ```
 
 
-# run /configs/SFDA_unmaskformer/Generate_pseudolabels_sourcemodel.py to generate the results with numpy format
-# run /tools/convert_pseudolabels/Save_levelinstance_softlabels.py (Line 146) and /tools/convert_pseudolabels/Save_semantic_softlabels.py (Line 130)
-# Then, rename these three directories to 'semantic' 'instance' and 'amodal_instance'
-# run configs/SFDA_unmaskformer/Training_targetonly_unmaskformer.py (Line 75)
-# The best results will be obtained in 400 iters
